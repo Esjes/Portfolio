@@ -12,20 +12,31 @@ html {
     box-sizing: border-box;
   }
 
-  .headerGrid {
+  .navbar {
+    overflow: hidden;
+    position: fixed; 
+    top: 0;
     width: 100%;
-    padding: 50px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    background: #D6E9FE;
+    padding: 15px;
+    display: flex;
+    justify-content:space-around;
+    align-content: center;
   }
 
+  .navbar a {
+      width: 175px;
+      font-family: "Trebuchet MS",Trebuchet,Verdana,Sans-Serif;
+      font-size: 1em;
+      font-variant: small-caps;
+      color: rgb(255, 102, 0);
+      text-decoration: none;
+      text-align: center;
+      letter-spacing: 3px;
+  }
 
-  .button {
-      font-family: Futura;
-      font-weight: bold;
-      font-size: 2em;
-      color: "orange";
+  .navbar a:hover {
+    background: rgb(255, 102, 0);
+    color: black;
   }
 
 
