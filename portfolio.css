@@ -1,0 +1,32 @@
+html { 
+    background: url(images/cover_2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .headerGrid {
+    width: 100%;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background: #D6E9FE;
+  }
+
+
+  .buttons {
+      font-family: Futura;
+      font-weight: bold;
+      font-size: 2em;
+      color: "orange";
+  }
+
+
+
