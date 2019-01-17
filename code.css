@@ -1,0 +1,37 @@
+.debug {     
+    border: 1px solid red;
+}  
+  
+  p {
+    font-family: "Trebuchet MS",Trebuchet,Verdana,Sans-Serif;
+    font-size: 1em;
+    font-variant: small-caps;
+    color: #000001;
+  }
+
+  h1 {
+    font-family: "Trebuchet MS",Trebuchet,Verdana,Sans-Serif;
+    font-size: 2em;
+    font-variant: small-caps;
+    color: rgb(255, 81, 0);
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Trebuchet MS",Trebuchet,Verdana,Sans-Serif;
+    font-size: 1.4em;
+    font-variant: small-caps;
+    color: #485d69;
+}
+
+
+.MainContainer debug{
+    display: grid;
+    grid-template-columns: 15% 1fr 15%;
+    grid-template-rows: 80px 1fr 200px;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    height: 100vh;
+    margin: 0;
+}
