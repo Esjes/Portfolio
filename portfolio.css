@@ -1,19 +1,22 @@
 
+body {
+    background-color: #10151a;
+}
 
   p {
     font-family: "Trebuchet MS",Trebuchet,Verdana,Sans-Serif;
-    font-size: 1em;
+    font-size: 0.9em;
     font-variant: small-caps;
     color: #000001;
+    letter-spacing: 2px;
   }
 
   h1 {
     font-family: "Trebuchet MS",Trebuchet,Verdana,Sans-Serif;
     font-size: 2em;
     font-variant: small-caps;
-    color: rgb(255, 81, 0);
+    color:#d6541c;
     letter-spacing: 5px;
-    text-align: center;
 }
 
 h2 {
@@ -23,8 +26,16 @@ h2 {
     color: #485d69;
 }
 
+h3 {
+    font-family: "Trebuchet MS",Trebuchet,Verdana,Sans-Serif;
+    font-size: 0.8em;
+    font-variant: small-caps;
+    color: #000001;
+    letter-spacing: 2px;
+}
 
-.MainContainer {
+
+.mainContainer {
     display: grid;
     grid-template-columns: 15% 1fr 15%;
     grid-template-rows: 80px 1fr 1fr 1fr 200px;
@@ -63,7 +74,7 @@ h2 {
       visibility: hidden;
   }
 
-  .ContMidden { 
+  .contMidden { 
     grid-column: 2 / 3;
     grid-row: 4 / 5;
     display: flex;
