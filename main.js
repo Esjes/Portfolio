@@ -1,3 +1,5 @@
+document.write('<embed src="camera-shutter-click-01.wav" hidden="true" autostart="true" width=0 height=0>');
+
 function shutterDown () {
   document.getElementById("shutter").style.transform = "translateY(0vh)";
   setTimeout(shutterUp, 600)
