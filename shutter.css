@@ -60,9 +60,10 @@ h3 {
     font-size: 1.1em;
   }
 
-  .navbar a:active {
-      visibility: hidden;
+  /*.navbar a:active {
+    visibility: hidden;
   }
+  */
 
 .mainContainer {
     display: grid;

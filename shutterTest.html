@@ -6,14 +6,14 @@
     <title>Esmeralda Holman</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="shutter.css">
-   
+    <script src="shutter.js"> </script>
 </head>
 
-<body>
+<body onload="shutterDown()" onload="shutterUp()">
 <div class="mainContainer">
         <div class="navbar">
-                <p onclick="shutterDown()">contact</p>
-                <a href="#code">code</a>
+                <h1 onclick="shutterDown()">contact</h1>
+                <a onclick="shutterDown()" href="code.html">code</a>
                 <a href="#EH">EH</a>
                 <a href="#fotografie">fotografie</a>
                 <a href="#beeldwewerking">beeldbewerking</a>
@@ -34,5 +34,5 @@
         </div>        
 </div>
 <div id="shutter"></div>
-<script src="shutter.js"> </script>
+
 </body>

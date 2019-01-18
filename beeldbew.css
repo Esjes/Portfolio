@@ -128,3 +128,17 @@ h3 {
   opacity: 0.7;
   border-radius: 50%;
 }
+
+#shutter {
+  transform: translateY(-100vh);
+  transition: 0.5s;
+  top: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  background-color: #10151a;
+  border-bottom: 1px solid #d64000;
+}

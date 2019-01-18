@@ -9,14 +9,15 @@
     <script src="main.js"></script>
 </head>
 
-<body>
+<body onload="shutterDown()" onload="shutterUp()">
+
 <div class="mainContainer">
         <div class="navbar">
-                <a href="#contact">contact</a>
-                <a href="#code">code</a>
-                <a href="#EH">EH</a>
-                <a href="#fotografie">fotografie</a>
-                <a href="#beeldwewerking">beeldbewerking</a>
+                <a href="contact.html">contact</a>
+                <a href="code.html">code</a>
+                <a href="eh.html">EH</a>
+                <a href="fotografie.html">fotografie</a>
+                <a href="beeldwewerking.html">beeldbewerking</a>
             </div>
         <div class="contMidden">
             <div class="titel boxBorder">
@@ -36,8 +37,10 @@
             </div>
         </div>        
 </div>
+<div id="shutter"></div>
 <script>
         /*Execute a function that will execute an image compare function for each element with the img-comp-overlay class:*/
         initComparisons();
         </script>
+
 </body>
